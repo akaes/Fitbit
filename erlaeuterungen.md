@@ -3,7 +3,7 @@
 ###Testumgebung: 
 Mac OS X mit Python 2.7.6, fitbitOne
 
-##Problemstellung: 
+##Aufgabenstellung: 
 Es wird eine regelmäßige Anzeige der Energiebilanz (verbrauchte kcal abzüglich zugeführte kcal) sowie der Gesamtaufnahme der Kohlenhydrate aus der Nahrung benötigt. Die Abfrage soll zum einen manuell erfolgen, zum anderen soll ein Alarm/eine Erinnerung beim Unter-/Überschreiten festgelegter Werte angezeigt werden.
 
 ##Umsetzung:
