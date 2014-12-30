@@ -23,8 +23,15 @@ Zugriff auf die Lebensmittel- und Aktivitätsdaten über die fitbit-API, Auswert
 * Einrichten eines cronJobs (Beispiel für Mac OS X: xml-plist für launchd) auf einem Server
 
 ##Dateien:
-fitbit_food_activities.py - Pythonscript für manuelle und automatische Auswertung
-beispiel.plist - XML-Datei (Beispiel) für launchd (Speicherort: /Library/LaunchDaemons/)
+* fitbit_food_activities.py - Pythonscript für manuelle und automatische Auswertung
+* beispiel.plist - XML-Datei (Beispiel) für launchd (Speicherort: /Library/LaunchDaemons/)
+
+##Dokumentation der angesprochenen APIs und Libraries:
+* [Fitbit-API](http://dev.fitbit.com)
+* [Doku zur Fitbit-API](https://wiki.fitbit.com/display/API/Fitbit+API)
+* [Python-Library für Fitbit](https://pypi.python.org/pypi/fitbit/0.1.0)
+* [Twitter-API](https://dev.twitter.com)
+* [Python-Library für Twitter](https://pypi.python.org/pypi/twitter/1.15.0)
 
 ##ToDo:
 Die Formatierung der Twitter-DM ist nicht optimal, hier muss die Syntax für den Parameter "text=" angepasst werden. Da es mich nicht stört und mich die Ausgabeform eher amüsiert, ist das für mich nachrangig. Falls jemand eine Idee hat, wie hier optimiert werden kann, nehme ich die Anregung gerne auf.
