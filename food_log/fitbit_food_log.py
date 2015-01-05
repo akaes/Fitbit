@@ -15,7 +15,7 @@ y = y - 1
 print y
 
 x = 0
-while x < y :
+while x <= y :
 	name = food["foods"][x]["loggedFood"]["name"]
 	carbs = food["foods"][x]["nutritionalValues"]["carbs"]
 	liste = name, carbs
