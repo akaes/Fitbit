@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import fitbit
 import json
@@ -18,6 +19,6 @@ x = 0
 while x <= y :
 	name = food["foods"][x]["loggedFood"]["name"]
 	carbs = food["foods"][x]["nutritionalValues"]["carbs"]
-	liste = name, carbs
-	pprint(liste) 
+	liste = name + ": " + str(carbs)
+	print(liste) 
 	x = x + 1
