@@ -13,7 +13,7 @@ calories_out = authd_client.activities(date=None, user_id=None, data=None)
 carbs = food["summary"]["carbs"]
 in_calories = food["summary"]["calories"]
 out_calories = calories_out["summary"]["caloriesOut"]
-bilanz = in_calories - out_calories
+balance = in_calories - out_calories
 dm = "DU SOLLTEST ETWAS ESSEN!"
 dm1 = "DU MUSST DRINGEND ETWAS ESSEN!"
 dm2 = "SO WIRD DAS NICHTS : ESSEN; DRINGEND!"
@@ -24,11 +24,11 @@ print "aufgenommene Kalorien: " + str(in_calories)
 print "verbrauchte Kalorien: " + str(out_calories)
 print "Bilanz: " + str(in_calories - out_calories)
 
-if bilanz < -1000:
+if balance < -1000:
 	print dm2
-elif bilanz < -600:
+elif balance < -600:
 	print dm1
-elif bilanz < -250:
+elif balance < -250:
 	print dm
 else:
 	print "Alles im gruenen Bereich."
@@ -36,7 +36,7 @@ else:
 if carbs > 20:
 	print dm4, str(carbs)
 	
-if bilanz < -1000:
+if balance < -1000:
 	from twitter import *
 
 	t = Twitter(
@@ -44,9 +44,9 @@ if bilanz < -1000:
     
 	t.direct_messages.new(
     user="@a_ka_es",
-    text = ("kcal: " + str(bilanz) + " " + " " + dm2 + " " + "carbs: " + str(carbs)))  
+    text = ("kcal: " + str(balance) + " " + " " + dm2 + " " + "carbs: " + str(carbs)))  
     
-elif bilanz < -600:
+elif balance < -600:
 	from twitter import *
 
 	t = Twitter(
@@ -54,9 +54,9 @@ elif bilanz < -600:
     
 	t.direct_messages.new(
     user="@a_ka_es",
-    text = ("kcal: " + str(bilanz) + " " + " " + dm1 + " " + "carbs: " + str(carbs))) 
+    text = ("kcal: " + str(balance) + " " + " " + dm1 + " " + "carbs: " + str(carbs))) 
     
-elif bilanz < -25:
+elif balance < -250:
 	from twitter import *
 
 	t = Twitter(
@@ -64,7 +64,7 @@ elif bilanz < -25:
     
 	t.direct_messages.new(
     user="@a_ka_es",
-    text = ("kcal: " + str(bilanz) + " " + " " + dm + " " + "Kohlenhydrate: " + str(carbs)))
+    text = ("kcal: " + str(balance) + " " + " " + dm + " " + "Kohlenhydrate: " + str(carbs)))
 
 if carbs > 20:
 	from twitter import *
