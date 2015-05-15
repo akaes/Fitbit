@@ -12,7 +12,7 @@ If specified values differ from a specified limit a twitter-notification will be
 
 ##REQUIREMENTS:
 * a fitbit- tracker with a registered account and continuous synchronisation
-* a continuous tracking of the intake of every food via app (mobile device) or the official fitbit-website
+* a continuous tracking of the consume of every food via app (mobile device) or the official fitbit-website
 * a continuous tracking of every activity which aren't automatically tracked via app (mobile device) or the official fitbit-website
 * a functional twitter-account
 
@@ -24,7 +24,7 @@ If specified values differ from a specified limit a twitter-notification will be
 * setup of a cronJob (e.g. Mac OS X: xml-plist launchd) on a server
 
 ##FILES
-* fitbit_food_activities.py - python-script for manuelly and automatically desk review
+* fitbit_food_activities.py - python-script for manually and automatically desk review
 * beispiel.plist - XML-Datei (example) launchd (path: /Library/LaunchDaemons/)
 
 ##Docs APIs and libraries:

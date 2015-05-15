@@ -4,7 +4,8 @@
 Mac OS X mit Python 2.7.6, fitbitOne
 
 ##TASK: 
-Listing of all consumed food and the amount of carbs for an arbitrary day
+Listing of all consumed food for an arbitrary day
+
 
 ##REALISATION:
 The access to data of nutrition and personal activity is granted via the fitbit-API.  A python-script queries this database and must be triggered manually.
@@ -13,13 +14,8 @@ The access to data of nutrition and personal activity is granted via the fitbit-
 * a fitbit-tracker with a registered account and continuous synchronisation
 * a continuous tracking of the intake of every food via app (mobile device) or the official fitbit-website
 
-##PROCEDURE:
-* registration to use the fitbit-API and the twitter-API
-* generation of the needed keys for OAuth and registration
-* modification of the python-script
-
 ##FILES:
-* fitbit_food_log.py - python-script for manually desk review
+* fitbit_food_summary.py - python-script for manually desk review
 
 ##Docs APIs and libraries:
 * [fitbit-API](http://dev.fitbit.com)
