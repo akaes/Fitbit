@@ -22,9 +22,9 @@ The access to data of nutrition and personal activity is granted via the fitbit-
 * fitbit_food_log.py - python-script for manually desk review
 
 ##Dokumentation der angesprochenen APIs und Libraries:
-* [Fitbit-API](http://dev.fitbit.com)
-* [Doku zur Fitbit-API](https://wiki.fitbit.com/display/API/Fitbit+API)
-* [Python-Library für Fitbit](https://pypi.python.org/pypi/fitbit/0.1.0)
+* [fitbit-API](http://dev.fitbit.com)
+* [docu fitbit-API](https://wiki.fitbit.com/display/API/Fitbit+API)
+* [python-library fitbit](https://pypi.python.org/pypi/fitbit/0.1.0)
 
 
 
