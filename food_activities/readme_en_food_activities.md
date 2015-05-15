@@ -24,7 +24,7 @@ If specified values differ from a specified limit a twitter-notification will be
 * setup of a cronJob (e.g. Mac OS X: xml-plist launchd) on a server
 
 ##FILES
-* fitbit_food_activities.py - Pythonscript für manuelle und automatische Auswertung
+* fitbit_food_activities.py - python-script for manuelly and automatically desk review
 * beispiel.plist - XML-Datei (example) launchd (path: /Library/LaunchDaemons/)
 
 ##Docs APIs and libraries:
