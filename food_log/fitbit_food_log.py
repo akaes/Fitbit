@@ -22,3 +22,7 @@ while x <= y :
 	liste = name + ": " + str(carbs)
 	print(liste) 
 	x = x + 1
+
+z = food["summary"]["carbs"]
+summary = "Summe carbs:"+ " z
+print(summary)
