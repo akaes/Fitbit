@@ -25,7 +25,7 @@ If specified values differ from a specified limit a twitter-notification will be
 
 ##FILES
 * fitbit_food_activities.py - python-script for manually and automatically desk review
-* beispiel.plist - XML-Datei (example) launchd (path: /Library/LaunchDaemons/)
+* beispiel.plist - XML-file (example) launchd (path: /Library/LaunchDaemons/)
 
 ##Docs APIs and libraries:
 * [fitbit-API](http://dev.fitbit.com)
