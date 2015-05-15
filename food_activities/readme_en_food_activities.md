@@ -4,7 +4,7 @@
 Mac OS X mit Python 2.7.6, fitbitOne
 
 ##TASK:
-A notification at frequent intervals is required.The difference between input and usage of food energy and the total amount of carbs should be displayed. It should be possible to interrogate the database manually and to signal a kind of "alert" if specified values are exceeding or falling below a specified limit.
+A notification at frequent intervals is required. The difference between input and usage of food energy and the total amount of carbs should be displayed. It should be possible to interrogate the database manually and to signal a kind of "alert" if specified values are exceeding or falling below a specified limit.
 
 ##REALISATION:
 The access to data of nutrition and personal activity is granted via the fitbit-API. A python-script queries this database automatically every hour and can be triggered manually.
