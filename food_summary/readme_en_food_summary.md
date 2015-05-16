@@ -1,7 +1,7 @@
 #EXPLANATION
 
 ###TEST ENVIRONMENT: 
-Mac OS X mit Python 2.7.6, fitbitOne
+Mac OS X, Python 2.7.6, fitbitOne
 
 ##TASK: 
 Listing of all consumed food for an arbitrary day
