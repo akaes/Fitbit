@@ -1,4 +1,4 @@
-#EXPLANATION
+#EXPLANATION - Update: The Fitbit-API has changed and the script needs an update.
 
 ###TEST ENVIRONMENT: 
 Mac OS X, Python 2.7.6, fitbitOne
